@@ -56,7 +56,7 @@ We also have the concept of variables (more like placeholders inside templates):
 Now, if we want to instantiate the object, and set the variable, we can do it with html:
 
 <pre>
-&lt;div class="_oo_instance_of_my_obj">
+&lt;div class="_oo_instance_of _my_obj">
   &lt;div class="_user">World&lt;/div>
 &lt;/div>
 </pre>
@@ -93,7 +93,7 @@ your_project/objects/my_sub_obj/my_sub_obj.html
 In this case we simply want to append content:
 
 <pre>
-&lt;div class="_oo_extends_my_obj">&lt;/div>
+&lt;div class="_oo_extends _my_obj">&lt;/div>
   &lt;div class="_oo_prepend_content">
   ALOHA!&nbsp;
   &lt;/div>
@@ -106,7 +106,7 @@ In this case we simply want to append content:
 Now, when we instantiate:
 
 <pre>
-&lt;div class="_oo_instance_of_my_sub_obj">
+&lt;div class="_oo_instance_of _my_sub_obj">
   &lt;div class="_name">World&lt;/div>
 &lt;/div>
 </pre>
@@ -133,7 +133,7 @@ your_project/objects/parent/parent.html:
 your_project/objects/child/child.html:
 
 <pre>
-&lt;div class="_oo_extends_parent">
+&lt;div class="_oo_extends _parent">
   &lt;div class="_section_2">This is section 2 from the child!&lt;/div>
 &lt;/div>
 </pre>
@@ -141,7 +141,7 @@ your_project/objects/child/child.html:
 Instantiated like this:
 
 <pre>
-&lt;div class="_oo_instance_of_child">&lt;/div>
+&lt;div class="_oo_instance_of _child">&lt;/div>
 </pre>
 
 Renders like this:
@@ -159,10 +159,10 @@ your_project/objects/parent/outer.html:
 
 <pre>
 &lt;div>
-  &lt;div class="_oo_instance_of_inner">
+  &lt;div class="_oo_instance _of_inner">
     &lt;div class="_user">Joe&lt;/div>
   &lt;/div>
-  &lt;div class="_oo_instance_of_inner">
+  &lt;div class="_oo_instance _of_inner">
     &lt;div class="_user">Fred&lt;/div>
   &lt;/div>
 &lt;/div>
