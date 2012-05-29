@@ -1,7 +1,7 @@
 bkoojs
 ======
 
-Ben Kinsey's Object Oriented Javascript Library
+Object Oriented Javascript Library
 
 oo.js (name spaced as $oo) is a javascript library which allows you to build simple object oriented html, js, and css.
 
