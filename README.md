@@ -5,11 +5,19 @@ Ben Kinsey's Object Oriented Javascript Library
 
 oo.js (name spaced as $oo) is a javascript library which allows you to build simple object oriented html, js, and css.
 
-In your html document you have to include the library.<pre>
-&lt;script src="oo.js">&lt;/script>
+(For now, each object has to be listed in a config json file, so the $oo library knows what objects we have. Eventually, we can make this auto scannable from filesystem the server side.)
+
+bkoojs.objects.json:
+<pre>
+{
+  'my_obj': {'version': 1, 'path':'your_project/objects/my_obj'},
+  'my_sub_obj': {'version': 1, 'path':'your_project/objects/my_sub_obj'}
+}
 </pre>
 
-(For now, each object has to be listed in a config file, so the $oo library knows what objects we have. Eventually, we can make this auto scannable from filesystem the server side.)
+In your html document you include the library.<pre>
+&lt;script src="oo.js">&lt;/script>
+</pre>
 
 The oo.js code will scan your html for instances of objects that it knows about, such as:
 <pre>
