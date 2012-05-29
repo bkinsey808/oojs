@@ -57,7 +57,7 @@ Now, if we want to instantiate the object, and set the variable, we can do it wi
 
 <pre>
 &lt;div class="_oo_instance_of_my_obj">
-  &lt;div class="_name">World&lt;/div>
+  &lt;div class="_user">World&lt;/div>
 &lt;/div>
 </pre>
 
