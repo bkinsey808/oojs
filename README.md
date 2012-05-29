@@ -1,5 +1,5 @@
-bkoojs
-======
+oojs
+====
 
 Object Oriented Javascript Library
 
