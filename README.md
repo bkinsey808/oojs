@@ -7,7 +7,7 @@ oo.js (name spaced as $oo) is a javascript library which allows you to build sim
 
 (For now, each object has to be listed in a config json file, so the $oo library knows what objects we have. Eventually, we can make this auto scannable from filesystem the server side.)
 
-bkoojs.objects.json:
+objects.json:
 <pre>
 {
   'my_obj': {'version': 1, 'path':'your_project/objects/my_obj'},
