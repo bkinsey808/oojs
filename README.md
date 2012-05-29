@@ -122,7 +122,7 @@ your_project/objects/parent/parent.html:
 &lt;/div>
 </pre>
 
-your_project/objects/parent/child.html:
+your_project/objects/child/child.html:
 
 <pre>
 &lt;div class="_oo_extends_parent">
