@@ -26,7 +26,7 @@ The oo.js code will scan your html for instances of objects that it knows about,
 
 It will then swap out that div with the html/js/css "object" bundle associated with that instance.
 
-Or, alternatively you can instantiate a named instance and display it of that object using javascript:
+Or, alternatively you can instantiate a named instance and display it using javascript:
 
 <pre>
 &lt;script>
