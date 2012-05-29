@@ -21,7 +21,7 @@ In your html document you include the library.<pre>
 
 The oo.js code will scan your html for instances of objects that it knows about, such as:
 <pre>
-&lt;div class="_oo_instance_of_my_obj">&lt;/div>
+&lt;div class="_oo_instance_of _my_obj">&lt;/div>
 </pre>
 
 It will then swap out that div with the html/js/css "object" bundle associated with that instance.
@@ -159,10 +159,10 @@ your_project/objects/parent/outer.html:
 
 <pre>
 &lt;div>
-  &lt;div class="_oo_instance _of_inner">
+  &lt;div class="_oo_instance_of _inner">
     &lt;div class="_user">Joe&lt;/div>
   &lt;/div>
-  &lt;div class="_oo_instance _of_inner">
+  &lt;div class="_oo_instance_of _inner">
     &lt;div class="_user">Fred&lt;/div>
   &lt;/div>
 &lt;/div>
@@ -193,7 +193,7 @@ your_project/objects/parent/outer.html:
 Populating from the server via html:
 
 <pre>
-&lt;div class="_oo_instance_of_user">
+&lt;div class="_oo_instance_of _user">
   &lt;div class="_oo_init">/users/user.json&lt;/div>
 &lt;/div>
 </pre>
