@@ -75,7 +75,7 @@ Or, in javascript with three steps:
 <pre>
 &lt;script>
   var instance = $oo.create_instance('my_obj');
-  $oo.init(instance {user: 'World');
+  $oo.init(instance, {user: 'World');
   $oo.display(instance);
 &lt;/script>
 </pre>
